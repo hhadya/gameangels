@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "EpilepsySans";
+    src: url(../fonts/EpilepsySans.ttf) format(truetype);
+    font-style: medium;
+}
+@font-face {
+    font-family: "EpilepsySansBold";
+    src: url(../fonts/EpilepsySansBold.ttf) format(truetype);
+    font-style: bold;
+}

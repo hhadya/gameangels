@@ -1,0 +1,1228 @@
+body {
+    cursor: url(../images/cursorangel.png), auto;
+    background-color: #AEC8E9;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section{
+    width: 100vw;
+    height: 66vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.pristavka{
+    position: absolute;
+    width: 90vw;
+    height: 50vw;
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+
+.morning{
+    position: absolute;
+    width: 68vw;
+    height: 35vw;
+    margin-top: 11vw;
+    margin-left: 16vw;
+}
+
+.night{
+    position: absolute;
+    width: 68vw;
+    height: 35vw;
+    margin-top: 11vw;
+    margin-left: 16vw;
+}
+
+.one{
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 14vw;
+    margin-left: 28vw;
+}
+
+.two{
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 14vw;
+    margin-left: 52vw;
+}
+
+.three{
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 14vw;
+    margin-left: 28vw;
+}
+
+.four{
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 14vw;
+    margin-left: 52vw;
+}
+
+.five{
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 14vw;
+    margin-left: 28vw;
+}
+
+.six{
+    position: absolute;
+    width: 20vw;
+    height: 25vw;
+    margin-top: 14vw;
+    margin-left: 52vw;
+}
+
+.text_one{
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: white;
+    margin-top: 7vw;
+    margin-left: 17vw;
+     animation: wave 3s ease-in-out infinite;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0) skewX(0deg);
+    }
+    25% {
+        transform: translateY(-8px) skewX(-2deg);
+    }
+    50% {
+        transform: translateY(0) skewX(0deg);
+    }
+    75% {
+        transform: translateY(8px) skewX(2deg);
+    }
+}
+
+.odin{
+    position: absolute;
+    width: 6vw;
+    height: 5vw;
+    margin-top: 5.3vw;
+    margin-left: 63vw;
+}
+.dwa{
+    position: absolute;
+    width: 6vw;
+    height: 5vw;
+    margin-top: 5.3vw;
+    margin-left: 70vw;
+}
+.tri{
+    position: absolute;
+    width: 6vw;
+    height: 5vw;
+    margin-top: 5.3vw;
+    margin-left: 77vw;
+}
+
+.moon{
+    position: absolute;
+    width: 9vw;
+    height: 9vw;
+    margin-top: 25vw;
+    margin-left: 6.5vw;
+}
+
+.sun{
+    position: absolute;
+    width: 9vw;
+    height: 9vw;
+    margin-top: 25vw;
+    margin-left: 6.5vw;
+}
+
+.pole{
+    position: absolute;
+    width: 29vw;
+    height: 15vw;
+    margin-top: 46vw;
+    margin-left: 35vw;
+}
+
+.sqaure{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 20vw;
+    margin-left: 87vw;
+}
+.triangle{
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 26vw;
+    margin-left: 87vw;
+}
+.round{
+     position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 32vw;
+    margin-left: 87vw;
+}
+
+.vvod{
+    position: absolute;
+    width: 17vw;
+    height: 3vw;
+    margin-top: 52vw;
+    margin-left: 47vw;
+}
+
+.choose{
+    position: absolute;
+    width: 15vw;
+    height: 3vw;
+    margin-top: 41vw;
+    margin-left: 44vw;
+}
+
+.main_icon{
+    position: absolute;
+    width: 11vw;
+    height: 10vw;
+    margin-top: 48vw;
+    margin-left: 35.5vw;
+    animation: main 3s ease-in-out;
+}
+
+@keyframes main {
+    0% {  
+        opacity: 0;  
+        transform: translateY(20px);  
+    }  
+    100% {  
+        opacity: 1;  
+        transform: translateY(0);  
+    }    
+}
+ 
+.iconone{
+    position: absolute;
+    width: 9vw;
+    height: 10vw;
+    margin-top: 48vw;
+    margin-left: 37vw;
+}
+
+.icontwo{
+    position: absolute;
+    width: 9vw;
+    height: 8vw;
+    margin-top: 48vw;
+    margin-left: 36.8vw;
+}
+
+.iconthree{
+    position: absolute;
+    width: 9vw;
+    height: 11vw;
+    margin-top: 48vw;
+    margin-left: 37vw;
+}
+
+.iconfour{
+    position: absolute;
+    width: 9vw;
+    height: 10vw;
+    margin-top: 48vw;
+    margin-left: 37vw;
+}
+
+.iconfive{
+    position: absolute;
+    width: 9vw;
+    height: 10vw;
+    margin-top: 48vw;
+    margin-left: 37vw;
+}
+.iconsix{
+    position: absolute;
+    width: 9vw;
+    height: 10vw;
+    margin-top: 48vw;
+    margin-left: 37vw;
+}
+
+.name{
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 2vw;
+    color: #A6B2FC;
+    width: 10vw;
+    height: 2vw;
+    margin-top: 52.3vw;
+    margin-left: 51vw;
+}
+.section_two {
+    width: 104vw;
+    height: 12vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.line {
+    position: absolute;
+    width: 104vw;
+    height: 12vw;
+    object-fit: cover;
+}
+
+.zheton{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 3vw;
+}
+.zhetontwo{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 19vw;
+}
+.zhetonthree{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 35vw;
+}
+.zhetonfour{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 51vw;
+}
+.zhetonfive{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 67vw;
+}
+.zhetonsix{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 83vw;
+}
+.zheton1{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 3vw;
+}
+.zheton2{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 19vw;
+}
+.zheton3{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 35vw;
+}
+.zheton4{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 51vw;
+}
+.zheton5{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 67vw;
+}
+.zheton6{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    margin-left: 83vw;
+}
+
+.section_three{
+    width: 100vw;
+    height: 62vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.arena{
+    position: absolute;
+    width: 100vw;
+    height: 62vw;
+}
+
+.garderob{
+    position: absolute;
+    width: 100vw;
+    height: 62vw;
+}
+
+.dom{
+    position: absolute;
+    width: 100vw;
+    height: 62vw;
+}
+.star{
+    position: absolute;
+    width: 58vw;
+    height: 8vw;
+    margin-top: 1vw;
+    margin-left: 18vw;
+}
+
+
+.place {
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: #DD507A;
+    width: 22vw;
+    height: 3vw;
+    margin-top: 3.5vw;
+    margin-left: 39vw;
+    white-space: nowrap;
+    opacity: 0;
+    animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+        text-shadow: 0 0 10px #DD507A;
+    }
+    25% {
+        opacity: 0.3;
+        text-shadow: 0 0 5px #DD507A;
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 20px #DD507A, 0 0 30px #DD507A;
+    }
+    75% {
+        opacity: 0.5;
+        text-shadow: 0 0 0px #DD507A;
+    }
+}
+
+.miniarena{
+    position: absolute;
+    width: 32vw;
+    height: 30vw;
+    margin-top: 10vw;
+    margin-left: 2vw;
+}
+
+.minigard{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 15vw;
+    margin-left: 35vw;
+}
+.minidom{
+    position: absolute;
+    width: 31vw;
+    height: 30vw;
+    margin-top: 15vw;
+    margin-left: 66vw;
+}
+
+.miniarena, .minigard, .minidom {
+    transition: margin-top 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.miniarena:hover, .minigard:hover, .minidom:hover {
+    filter: drop-shadow(0 0 15px gold);
+}
+
+.save{
+    position: absolute;
+    width: 18vw;
+    height: 5vw;
+    margin-top: 55vw;
+    margin-left: 42vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.save:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 15px gold);
+}
+
+.text_fora{
+    position: absolute;
+    width: 26vw;
+    height: 5vw;
+    margin-top: 41vw;
+    margin-left: 5vw;
+}
+
+.text_forr{
+    position: absolute;
+    width: 26vw;
+    height: 5vw;
+    margin-top: 41vw;
+    margin-left: 37vw;
+}
+.text_ford{
+    position: absolute;
+    width: 26vw;
+    height: 5vw;
+    margin-top: 41vw;
+    margin-left: 70vw;
+}
+
+.plashka{
+    position: absolute;
+    width: 49vw;
+    height: 26vw;
+    margin-top: 18vw;
+    margin-left: 26vw;
+    z-index: 1000;
+    display: none;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+.plashka {
+    animation: appear 0.5s ease-out;
+}
+
+.plashka.hide {
+    animation: disappear 0.3s ease-in forwards;
+}
+
+.section_four{
+    width: 100vw;
+    height: 63vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.pink_background{
+    position: absolute;
+    width: 100vw;
+    height: 63vw;
+}
+.blue_background{
+    position: absolute;
+    width: 53vw;
+    height: 63vw;
+    margin-left: 50vw;
+}
+
+.konvert{
+    position: absolute;
+    width: 47vw;
+    height: 31vw;
+    margin-top: 27vw;
+    margin-left: 51.5vw;
+}
+
+.stamp{
+    position: absolute;
+    width: 12vw;
+    height: 10vw;
+    margin-top: 42vw;
+    margin-left: 69.5vw;
+}
+
+.konvert_1{
+    position: absolute;
+    width: 51vw;
+    height: 58vw;
+    margin-top: 3vw;
+    margin-left: 49vw;
+}
+
+.ticket{
+    position: absolute;
+    width: 19vw;
+    height: 45vw;
+    margin-top: 10vw;
+    margin-left: 66vw;
+}
+
+.part_konvert{
+    position: absolute;
+    width: 48vw;
+    height: 27vw;
+    margin-top: 35vw;
+    margin-left: 51vw;
+}
+
+.plashka_7{
+    position: absolute;
+    width: 45vw;
+    height: 23vw;
+    margin-top: 15vw;
+    margin-left: 52.5vw;
+}
+
+.ticket_1{
+    position: absolute;
+    width: 39vw;
+    height: 17vw;
+    margin-top: 18vw;
+    margin-left: 56vw;
+}
+
+.ticket_2{
+    position: absolute;
+    width: 39vw;
+    height: 17vw;
+    margin-top: 18vw;
+    margin-left: 56vw;
+}
+
+.text_two{
+    position: absolute;
+     font-family: "EpilepsySans";
+    font-size: 6vw;
+    color: white;
+    width: 42vw;
+    height: 6vw;
+    margin-top: 4vw;
+    margin-left: 4vw;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.text_two:hover {
+    animation: svet 1.5s ease-in-out infinite;
+    color: #AEC8E9;
+}
+
+@keyframes svet {
+    0%, 100% {
+        text-shadow: 
+            0 0 10px #AEC8E9,
+            0 0 20px #AEC8E9,
+            0 0 30px #AEC8E9;
+    }
+    50% {
+        text-shadow: 
+            0 0 20px #AEC8E9,
+            0 0 40px #AEC8E9,
+            0 0 60px #AEC8E9,
+            0 0 80px #AEC8E9;
+    }
+}
+
+.avtomat{
+    position: absolute;
+    width: 54vw;
+    height: 49vw;
+    margin-top: 14vw;
+    margin-left: -2.3vw;
+}
+
+.knopka{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 53vw;
+    margin-left: 27vw;
+}
+
+.text_three{
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: white;
+    width: 9vw;
+    height: 3vw;
+    margin-top: 53.5vw;
+    margin-left: 11vw;
+}
+.counter{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: white;
+    width: 2vw;
+    height: 3vw;
+    margin-top: 53.5vw;
+    margin-left: 21vw;
+}
+
+.kran{
+    position: absolute;
+    width: 9vw;
+    height: 11vw;
+    margin-top: 23.5vw;
+    margin-left: 21vw;
+}
+
+.kran_bottom{
+    position: absolute;
+    width: 9vw;
+    height: 18vw;
+    margin-top: 23vw;
+    margin-left: 37vw;
+}
+
+.kot{
+    position: absolute;
+    width: 8vw;
+    height: 9vw;
+    margin-top: 28vw;
+    margin-left: 37.5vw;
+}
+
+.vozduh_kot{
+    position: absolute;
+    width: 8vw;
+    height: 9vw;
+    margin-top: 29vw;
+    margin-left: 37.5vw;
+
+}
+
+.tamagochi{
+    position: absolute;
+    width: 10vw;
+    height: 8vw;
+    margin-top: 29vw;
+    margin-left: 36.5vw;
+}
+
+.perchatka{
+    position: absolute;
+    width: 10vw;
+    height: 7vw;
+    margin-top: 29vw;
+    margin-left: 37vw;
+
+}
+
+.wand{
+    position: absolute;
+    width: 18vw;
+    height: 5vw;
+    margin-top: 31vw;
+    margin-left: 33vw;
+}
+
+.shield{
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: 28vw;
+    margin-left: 37.5vw;
+}
+
+.plashka_1{
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_2{
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_3{
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_4{
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_5{
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_6{
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+
+.section_five{
+    width: 100vw;
+    height: 63vw;
+    position: relative;
+    overflow-x: hidden;
+}
+.background_five{
+    position: absolute;
+    width: 100vw;
+    height: 63vw;
+}
+
+.ekran{
+    position: absolute;
+    width: 61vw;
+    height: 41vw;
+    margin-top: 4vw;
+    margin-left: 3vw;
+}
+
+.icon_forekran{
+    position: absolute;
+    width: 31vw;
+    height: 33vw;
+    margin-top: 9vw;
+    margin-left: 19vw;
+}
+
+.wings{
+    position: absolute;
+    width: 68vw;
+    height: 11vw;
+    margin-top: 1vw;
+    margin-left: 0vw;
+}
+.monolog{
+    position: absolute;
+    width: 63vw;
+    height: 14vw;
+    margin-top: 47vw;
+    margin-left: 3vw;
+}
+.text_formonolog{
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 52vw;
+    margin-left: 8vw;
+}
+.next{
+    position: absolute;
+    width: 3vw;
+    height: 2.5vw;
+    margin-top: 55vw;
+    margin-left: 58vw;
+}
+
+.arena_1{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+
+.arena_2{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.arena_3{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.arena_4{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.arena_5{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+
+.garderob_1{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.garderob_2{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.garderob_3{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.garderob_4{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.dom_1{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.dom_2{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.dom_3{
+     position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.dom_4{
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: black;
+    width: 54vw;
+    height: 2vw;
+    margin-top: 51vw;
+    margin-left: 8vw;
+}
+.mini_ekran{
+    position: absolute;
+    width: 29vw;
+    height: 57vw;
+    margin-top: 4vw;
+    margin-left: 69.5vw;
+}
+.ikon{
+    position: absolute;
+    width: 24vw;
+    height: 24vw;
+    margin-top: 6vw;
+    margin-left: 72vw;
+}
+.ekran_forname{
+    position: absolute;
+    width: 21vw;
+    height: 4vw;
+    margin-top: 31vw;
+    margin-left: 73.5vw;
+}
+.name_text{
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: #DD507A;
+    width: 5vw;
+    height: 3vw;
+    margin-top: 31.2vw;
+    margin-left: 82vw;
+}
+.rect{
+    position: absolute;
+    width: 21vw;
+    height: 21vw;
+    margin-top: 36vw;
+    margin-left: 73.5vw;
+}
+.geroi{
+    position: absolute;
+    width: 21vw;
+    height: 3vw;
+    margin-top: 39vw;
+    margin-left: 73.5vw;
+}
+.mesto{
+    position: absolute;
+    width: 21vw;
+    height: 3vw;
+    margin-top: 45vw;
+    margin-left: 73.5vw;
+}
+.issledovanie{
+    position: absolute;
+    width: 21vw;
+    height: 3vw;
+    margin-top: 51vw;
+    margin-left: 73.5vw;
+}
+.mini_ikon{
+    position: absolute;
+    width: 17vw;
+    height: 19vw;
+    margin-top: 8vw;
+    margin-left: 75.5vw;
+}
+.arrow{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    margin-top: 40vw;
+    margin-left: 95vw;
+}
+
+.place_1{
+    position: absolute;
+    width: 62vw;
+    height: 37vw;
+    margin-top: 6.5vw;
+    margin-left: 2.5vw;
+}
+.place_2{
+    position: absolute;
+    width: 58vw;
+    height: 37vw;
+    margin-top: 6.5vw;
+    margin-left: 4.5vw;
+}
+.place_3{
+    position: absolute;
+    width: 58vw;
+    height: 37vw;
+    margin-top: 6.5vw;
+    margin-left: 4.5vw;
+}
+
+
+.angel_1{
+    position: absolute;
+    width: 20vw;
+    height: 27vw;
+    margin-top: 17vw;
+    margin-left: 39vw;
+}
+.angel_2{
+    position: absolute;
+    width: 17vw;
+    height: 27vw;
+    margin-top: 17vw;
+    margin-left: 39vw;
+}
+.angel_3{
+    position: absolute;
+    width: 19vw;
+    height: 28vw;
+    margin-top: 16.5vw;
+    margin-left: 39vw;
+}
+.angel_4{
+    position: absolute;
+    width: 17vw;
+    height: 27vw;
+    margin-top: 17vw;
+    margin-left: 39vw;
+}
+.angel_5{
+    position: absolute;
+    width: 19vw;
+    height: 27vw;
+    margin-top: 17vw;
+    margin-left: 39vw;
+}
+.angel_6{
+    position: absolute;
+    width: 26vw;
+    height: 27vw;
+    margin-top: 17vw;
+    margin-left: 36vw;
+}
+
+.mini_1{
+    position: absolute;
+    width: 18vw;
+    height: 20vw;
+    margin-top: 8vw;
+    margin-left: 75vw;
+}
+.mini_2{
+    position: absolute;
+    width: 18vw;
+    height: 16vw;
+    margin-top: 8vw;
+    margin-left: 75vw;
+}
+.mini_3{
+    position: absolute;
+    width: 18vw;
+    height: 21vw;
+    margin-top: 8vw;
+    margin-left: 75vw;
+}
+.mini_4{
+    position: absolute;
+    width: 18vw;
+    height: 20vw;
+    margin-top: 8vw;
+    margin-left: 75vw;
+}
+.mini_5{
+    position: absolute;
+    width: 18vw;
+    height: 19vw;
+    margin-top: 8vw;
+    margin-left: 75vw;
+}
+.mini_6{
+    position: absolute;
+    width: 18vw;
+    height: 20vw;
+    margin-top: 8vw;
+    margin-left: 75vw;
+}
+
+.section_six{
+    width: 100vw;
+    height: 12vw;
+    position: relative;
+    overflow-x: hidden;
+}
+.end{
+    position: absolute;
+    width: 100vw;
+    height: 12vw;
+}
+
+.kralo{
+    position: absolute;
+    width: 100vw;
+    height: 6vw;
+    margin-top: 1vw;
+}
+.last{
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 6vw;
+    color: white;
+    width: 75vw;
+    height: 6vw;
+    margin-top: 1vw;
+    margin-left: 13vw;
+}
+
+.main_plashka{
+    position: absolute;
+    width: 95vw;
+    height: 60vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+.loading{
+    position: absolute;
+    width: 42vw;
+    height: 4vw;
+    margin-top: 49vw;
+    margin-left: 30.4vw;
+}
+.load_bar{
+    position: absolute;
+    width: 41vw;
+    height: 3vw;
+    margin-top: 49.5vw;
+    margin-left: 30.5vw;
+    animation: expandwidth 4s steps(26, end) infinite;
+}
+@keyframes expandwidth {
+0% {  width: 0%;}
+100% { width: 42vw;}
+}
