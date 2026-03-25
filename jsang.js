@@ -2068,5 +2068,24 @@ setInterval(function() {
     }
 }, 500);
 
+const krest = document.querySelector('.krest');
+const mainPlashka = document.querySelector('.main_plashka');
+const loadbar = document.querySelector('.load_bar');
+const loading = document.querySelector('.loading');
+
+
+function closeAll() {
+    if (mainPlashka) mainPlashka.style.display = 'none';
+    if (loadbar) loadbar.style.display = 'none';
+    if (loading) loading.style.display = 'none';
+    if (krest) krest.style.display = 'none'; 
+    console.log('ура, закрыли');
+}
+
+if (krest) {
+    krest.addEventListener('click', closeAll);
+    krest.style.cursor = 'pointer'; 
+}
+
 
 });

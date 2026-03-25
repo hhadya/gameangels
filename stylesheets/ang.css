@@ -1226,3 +1226,10 @@ section{
 0% {  width: 0%;}
 100% { width: 42vw;}
 }
+.krest{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 90vw;
+}
