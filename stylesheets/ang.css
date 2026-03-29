@@ -20,6 +20,14 @@ section{
     margin-left: 5vw;
 }
 
+.pristavka_mobile{
+    position: absolute;
+    display: none;
+    width: 31vw;
+    height: 36vw;
+    margin-top: 4vw;
+    margin-left: 50vw;
+}
 .morning{
     position: absolute;
     width: 68vw;
@@ -794,6 +802,12 @@ section{
     height: 19vw;
     margin-top: 26vw;
     margin-left: 9vw;
+}
+.avtomat_mobile{
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 92vw;
 }
 
 .section_five{

@@ -1,0 +1,797 @@
+@media screen and (min-width: 1px) and (max-width: 450px)  {
+    body {
+    background-color: #AEC8E9;
+    width: 100%;
+    overflow-x: hidden;
+}
+section{
+    width: 100vw;
+    height: 138vw;
+    position: relative;
+    overflow-x: hidden;
+}
+.pristavka{
+    position: absolute;
+    display: none;
+    width: 90vw;
+    height: 50vw;
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+
+.pristavka_mobile{
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 115vw;
+    margin-top: 12vw;
+    margin-left: 3vw
+}
+.morning{
+    display: none;
+    position: absolute;
+    display: none;
+    width: 68vw;
+    height: 35vw;
+    margin-top: 11vw;
+    margin-left: 16vw;
+}
+
+.night{
+    display: none;
+    position: absolute;
+    display: none;
+    width: 68vw;
+    height: 35vw;
+    margin-top: 11vw;
+    margin-left: 16vw;
+}
+.one{
+    position: absolute;
+    width: 24vw;
+    height: 30vw;
+    margin-top: 26vw;
+    margin-left: 26vw;
+}
+
+.two{
+    position: absolute;
+    width: 24vw;
+    height: 30vw;
+    margin-top: 26vw;
+    margin-left: 55vw;
+}
+
+.three{
+    position: absolute;
+    width: 24vw;
+    height: 30vw;
+    margin-top: 26vw;
+    margin-left: 26vw;
+}
+
+.four{
+    position: absolute;
+    width: 24vw;
+    height: 30vw;
+    margin-top: 26vw;
+    margin-left: 55vw;
+}
+
+.five{
+    position: absolute;
+    width: 24vw;
+    height: 30vw;
+    margin-top: 26vw;
+    margin-left: 26vw;
+}
+
+.six{
+    position: absolute;
+    width: 24vw;
+    height: 30vw;
+    margin-top: 26vw;
+    margin-left: 55vw;
+}
+
+.text_one{
+    display: none;
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: white;
+    margin-top: 7vw;
+    margin-left: 17vw;
+     animation: wave 3s ease-in-out infinite;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0) skewX(0deg);
+    }
+    25% {
+        transform: translateY(-8px) skewX(-2deg);
+    }
+    50% {
+        transform: translateY(0) skewX(0deg);
+    }
+    75% {
+        transform: translateY(8px) skewX(2deg);
+    }
+}
+
+.odin{
+    position: absolute;
+    width: 13vw;
+    height: 11vw;
+    margin-top: 85vw;
+    margin-left: 63vw;
+}
+.dwa{
+    position: absolute;
+    width: 13vw;
+    height: 11vw;
+    margin-top: 100vw;
+    margin-left: 63vw;
+}
+.tri{
+    position: absolute;
+    width: 13vw;
+    height: 11vw;
+    margin-top: 115vw;
+    margin-left: 63vw;
+}
+.moon{
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    margin-top: 104vw;
+    margin-left: 30vw;
+}
+
+.sun{
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    margin-top: 104vw;
+    margin-left: 30vw;
+}
+
+.pole{
+    display: none;
+    position: absolute;
+    width: 29vw;
+    height: 15vw;
+    margin-top: 46vw;
+    margin-left: 35vw;
+}
+
+.sqaure{
+    display: none;
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 20vw;
+    margin-left: 87vw;
+}
+.triangle{
+    display: none;
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 26vw;
+    margin-left: 87vw;
+}
+.round{
+    display: none;
+     position: absolute;
+    width: 5vw;
+    height: 5vw;
+    margin-top: 32vw;
+    margin-left: 87vw;
+}
+
+.vvod{
+    display: none;
+    position: absolute;
+    width: 17vw;
+    height: 3vw;
+    margin-top: 52vw;
+    margin-left: 47vw;
+}
+
+.choose{
+    position: absolute;
+    width: 29vw;
+    height: 6vw;
+    margin-top: 72vw;
+    margin-left: 38vw;
+}
+
+.main_icon{
+    display: none;
+    position: absolute;
+    width: 11vw;
+    height: 10vw;
+    margin-top: 48vw;
+    margin-left: 35.5vw;
+    animation: main 3s ease-in-out;
+}
+
+@keyframes main {
+    0% {  
+        opacity: 0;  
+        transform: translateY(20px);  
+    }  
+    100% {  
+        opacity: 1;  
+        transform: translateY(0);  
+    }    
+}
+ 
+.iconone{
+    position: absolute;
+    width: 10vw;
+    height: 11vw;
+    margin-top: 55vw;
+    margin-left: 49vw;
+}
+
+.icontwo{
+    position: absolute;
+    width: 10vw;
+    height: 9vw;
+    margin-top: 55vw;
+    margin-left: 49vw;
+}
+
+.iconthree{
+    position: absolute;
+    width: 10vw;
+    height: 12vw;
+    margin-top: 55vw;
+    margin-left: 49vw;
+}
+
+.iconfour{
+    position: absolute;
+    width: 10vw;
+    height: 11vw;
+    margin-top: 55vw;
+    margin-left: 49vw;
+}
+
+.iconfive{
+    position: absolute;
+    width: 10vw;
+    height: 11vw;
+    margin-top: 55vw;
+    margin-left: 49vw;
+}
+.iconsix{
+    position: absolute;
+    width: 10vw;
+    height: 11vw;
+    margin-top: 55vw;
+    margin-left: 49vw;
+}
+
+.name{
+    display: none;
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 2vw;
+    color: #A6B2FC;
+    width: 10vw;
+    height: 2vw;
+    margin-top: 52.3vw;
+    margin-left: 51vw;
+}
+
+.section_three{
+    width: 100vw;
+    height: 122vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.arena{
+    position: absolute;
+    width: 100vw;
+    height: 122vw;
+}
+.garderob{
+    position: absolute;
+    width: 100vw;
+    height: 122vw;
+}
+
+.dom{
+    position: absolute;
+    width: 100vw;
+    height: 122vw;
+}
+.star{
+    position: absolute;
+    width: 58vw;
+    height: 8vw;
+    margin-top: 1vw;
+    margin-left: 18vw;
+}
+
+
+.place {
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: #DD507A;
+    width: 22vw;
+    height: 3vw;
+    margin-top: 3.5vw;
+    margin-left: 39vw;
+    white-space: nowrap;
+    opacity: 0;
+    animation: blink 1.5s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+        text-shadow: 0 0 10px #DD507A;
+    }
+    25% {
+        opacity: 0.3;
+        text-shadow: 0 0 5px #DD507A;
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 20px #DD507A, 0 0 30px #DD507A;
+    }
+    75% {
+        opacity: 0.5;
+        text-shadow: 0 0 0px #DD507A;
+    }
+}
+
+.miniarena{
+    position: absolute;
+    width: 55vw;
+    height: 54vw;
+    margin-top: 15vw;
+    margin-left: 2vw;
+}
+
+.minigard{
+    position: absolute;
+    width: 53vw;
+    height: 54vw;
+    margin-top: 20vw;
+    margin-left: 35vw;
+}
+.minidom{
+    position: absolute;
+    width: 54vw;
+    height: 54vw;
+    margin-top: 20vw;
+    margin-left: 66vw;
+}
+
+.miniarena, .minigard, .minidom {
+    transition: margin-top 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.miniarena:hover, .minigard:hover, .minidom:hover {
+    filter: drop-shadow(0 0 15px gold);
+}
+
+.save{
+    position: absolute;
+    width: 45vw;
+    height: 11vw;
+    margin-top: 95vw;
+    margin-left: 29vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.save:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 15px gold);
+}
+
+.text_fora{
+    position: absolute;
+    width: 26vw;
+    height: 5vw;
+    margin-top: 41vw;
+    margin-left: 5vw;
+}
+
+.text_forr{
+    position: absolute;
+    width: 26vw;
+    height: 5vw;
+    margin-top: 41vw;
+    margin-left: 37vw;
+}
+.text_ford{
+    position: absolute;
+    width: 26vw;
+    height: 5vw;
+    margin-top: 41vw;
+    margin-left: 70vw;
+}
+
+.plashka{
+    position: absolute;
+    width: 92vw;
+    height: 48vw;
+    margin-top: 30vw;
+    margin-left: 3vw;
+    z-index: 1000;
+    display: none;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+.plashka {
+    animation: appear 0.5s ease-out;
+}
+
+.plashka.hide {
+    animation: disappear 0.3s ease-in forwards;
+}
+
+.section_four{
+    width: 100vw;
+    height: 241vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.pink_background{
+    position: absolute;
+    width: 100vw;
+    height: 118vw;
+}
+.blue_background{
+    position: absolute;
+    width: 100vw;
+    height: 122vw;
+    margin-top: 118vw;
+    margin-left: 0vw;
+}
+.konvert{
+    position: absolute;
+    width: 91vw;
+    height: 61vw;
+    margin-top: 169vw;
+    margin-left: 4vw;
+}
+
+.stamp{
+    position: absolute;
+    width: 25vw;
+    height: 22vw;
+    margin-top: 200vw;
+    margin-left: 39vw;
+}
+
+.konvert_1{
+    position: absolute;
+    width: 96vw;
+    height: 108vw;
+    margin-top: 125vw;
+    margin-left: 2vw;
+}
+
+.ticket{
+    display: none;
+    position: absolute;
+    width: 19vw;
+    height: 45vw;
+    margin-top: 10vw;
+    margin-left: 66vw;
+}
+
+.part_konvert{
+    position: absolute;
+    width: 86vw;
+    height: 45vw;
+    margin-top: 186vw;
+    margin-left: 8vw;
+}
+
+.plashka_7{
+    display: none;
+    position: absolute;
+    width: 45vw;
+    height: 23vw;
+    margin-top: 15vw;
+    margin-left: 52.5vw;
+}
+
+.ticket_1{
+    display: none;
+    position: absolute;
+    width: 39vw;
+    height: 17vw;
+    margin-top: 18vw;
+    margin-left: 56vw;
+}
+
+.ticket_2{
+    display: none;
+    position: absolute;
+    width: 39vw;
+    height: 17vw;
+    margin-top: 18vw;
+    margin-left: 56vw;
+}
+
+.text_two{
+    position: absolute;
+     font-family: "EpilepsySans";
+    font-size: 11vw;
+    color: white;
+    width: 83vw;
+    height: 11vw;
+    margin-top: 4vw;
+    margin-left: 14vw;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.text_two:hover {
+    animation: svet 1.5s ease-in-out infinite;
+    color: #AEC8E9;
+}
+
+@keyframes svet {
+    0%, 100% {
+        text-shadow: 
+            0 0 10px #AEC8E9,
+            0 0 20px #AEC8E9,
+            0 0 30px #AEC8E9;
+    }
+    50% {
+        text-shadow: 
+            0 0 20px #AEC8E9,
+            0 0 40px #AEC8E9,
+            0 0 60px #AEC8E9,
+            0 0 80px #AEC8E9;
+    }
+}
+
+.avtomat{
+    display: none;
+    position: absolute;
+    width: 54vw;
+    height: 49vw;
+    margin-top: 14vw;
+    margin-left: -2.3vw;
+}
+
+.knopka{
+    display: none;
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 53vw;
+    margin-left: 27vw;
+}
+
+.text_three{
+    display: none;
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: white;
+    width: 9vw;
+    height: 3vw;
+    margin-top: 53.5vw;
+    margin-left: 11vw;
+}
+.counter{
+    display: none;
+    position: absolute;
+    font-family: "EpilepsySans";
+    font-size: 3vw;
+    color: white;
+    width: 2vw;
+    height: 3vw;
+    margin-top: 53.5vw;
+    margin-left: 21vw;
+}
+
+.kran{
+    display: none;
+    position: absolute;
+    width: 9vw;
+    height: 11vw;
+    margin-top: 23.5vw;
+    margin-left: 21vw;
+}
+
+.kran_bottom{
+    display: none;
+    position: absolute;
+    width: 9vw;
+    height: 18vw;
+    margin-top: 23vw;
+    margin-left: 37vw;
+}
+
+.kot{
+    display: none;
+    position: absolute;
+    width: 8vw;
+    height: 9vw;
+    margin-top: 28vw;
+    margin-left: 37.5vw;
+}
+
+.vozduh_kot{
+    display: none;
+    position: absolute;
+    width: 8vw;
+    height: 9vw;
+    margin-top: 29vw;
+    margin-left: 37.5vw;
+
+}
+
+.tamagochi{
+    display: none;
+    position: absolute;
+    width: 10vw;
+    height: 8vw;
+    margin-top: 29vw;
+    margin-left: 36.5vw;
+}
+
+.perchatka{
+    display: none;
+    position: absolute;
+    width: 10vw;
+    height: 7vw;
+    margin-top: 29vw;
+    margin-left: 37vw;
+
+}
+
+.wand{
+    display: none;
+    position: absolute;
+    width: 18vw;
+    height: 5vw;
+    margin-top: 31vw;
+    margin-left: 33vw;
+}
+
+.shield{
+    display: none;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    margin-top: 28vw;
+    margin-left: 37.5vw;
+}
+
+.plashka_1{
+    display: none;
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_2{
+    display: none;
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_3{
+    display: none;
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_4{
+    display: none;
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_5{
+    display: none;
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.plashka_6{
+    display: none;
+    position: absolute;
+    width: 32vw;
+    height: 19vw;
+    margin-top: 26vw;
+    margin-left: 9vw;
+}
+.avtomat_mobile{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 92vw;
+    margin-top: 26vw;
+    margin-left: 0vw;
+}
+
+.main_plashka{
+    display: none;
+    position: absolute;
+    width: 95vw;
+    height: 60vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+.loading{
+    display: none;
+    position: absolute;
+    width: 42vw;
+    height: 4vw;
+    margin-top: 49vw;
+    margin-left: 30.4vw;
+}
+.load_bar{
+    display: none;
+    position: absolute;
+    width: 41vw;
+    height: 3vw;
+    margin-top: 49.5vw;
+    margin-left: 30.5vw;
+    animation: expandwidth 4s steps(26, end) infinite;
+}
+@keyframes expandwidth {
+0% {  width: 0%;}
+100% { width: 42vw;}
+}
+.krest{
+    display: none;
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-left: 90vw;
+}
+
+}
